@@ -79,7 +79,7 @@ def main():
 
         # 8. Output details to out.txt
         os.makedirs("../", exist_ok=True)
-        with open("../out.txt", "w") as f:
+        with open('out.txt', 'w') as f:
             f.write("{}\n".format(txid))
             f.write("{}\n".format(input_address))
             f.write("{}\n".format(input_value))
